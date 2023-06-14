@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 styles/ext/
-scripts/ext/
+js/ext/
