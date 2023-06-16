@@ -2,7 +2,7 @@
 title:		"ভ্ৰাম্যমান থিয়েটাৰ-এক সূক্ষ্ম আলোচনা"
 date:		2022-11-29 05:31:00
 updated:	2022-12-01 21:17:58
-tags:	prabondho,article
+tags: 	    prabondho,article
 intro:      "আমি যদি ভ্ৰাম্যমান নাটকৰ ইতিহাস খুঁচৰিবলৈ যাওঁ তেতিয়া উভতি যাব লাগিব ১৯৩০ চনলৈ "
 blogger:	https://rimjhimborthakur.blogspot.com/2022/11/blog-post.html
 ---

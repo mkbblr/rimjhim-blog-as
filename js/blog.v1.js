@@ -1,77 +1,58 @@
-const blog = ((content_index) => {
-    data = content_index || (site_index_map_object  || undefined)
+const blog = (() => {
+    
+    let content_index = undefined
+    const listing = (async (target, onclick, data) => {
+        content_index = data  || undefined
 
-
-    const listing = ((target, onclick) => {
-        if (!onclick) {
-            onclick = "console.log('onclick not provided for blog')"
+        if (!target) {
+            console.log("listing(): target div not provided")
+            return
+        }
+        if (!content_index) {
+            console.log("data is not fetched, cannot show post list")
+            target.innerHTML = "<p> data is not fetched, cannot show post list</p>"
+            return
         }
 
-        if (target) {
-            container = target
-        }
-        let html = "<p>not yet ...</p>";
-
-        (async () => {
-
-            if (!data) {
-                let response = await fetch("api/posts.json");
-                data = await response.json();
-            }
-
-            if (data === undefined) {
-                console.log("data is not fetched, cannot show post list")
-                html = "<p> data is not fetched, cannot show post list</p>"
-            }
-            html = '<ul>'
-            Object.keys(data).forEach(k =>{
-                let d = data[k]
-                let item = `<li>
-                <div class="post">
-                    <h5 class="title" href="#" onclick=${onclick}('${k}') >${d.title}&nbsp;-&nbsp;&nbsp(${d.date})</h5>
-                    <p class="intro">${d.intro}</p>
-                </div></li>`;
-                html += item;
-            });
-        
-            html += "</ul>";
-            if (container) {
-                container.innerHTML = html;
-            }
-
-        })()
-
-        return html
+        onclick = onclick || "console.log('onclick handler not provided')"
+        let html = '<ul>'
+        Object.keys(content_index).forEach(k =>{
+            let d = content_index[k]
+            html += `<li>
+            <div class="post">
+                <h5 class="title" href="#" onclick=${onclick}('${k}') >${d.title}&nbsp;-&nbsp;&nbsp(${d.date})</h5>
+                <p class="intro">${d.intro}</p>
+            </div></li>`;
+        });
+        html += "</ul>";
+        target.innerHTML = html
     });
 
-    const single = ((container, key) => {
-        (async () => {
-            let html = ''
-            let content =  data[key]?.content
-    
-            if (!data[key]?.content) {
-                let response = await fetch(key + '.md');
-                data[key].content = await response.text();
-            }
-    
-            if (!data[key]?.content) {
-                html =  "<p>Failed to get fetch content</p>"
-            } else {
-                html = `<div>`
-                converter = new showdown.Converter({metadata: true});
-                html += converter.makeHtml(data[key].content)
-                html += `</div>`
-            }
-            if (container) {
-                container.innerHTML = html;
-            }
-        })()
-    })
+    const single = (async (target, key) => {
+        if (!target) {
+            console.log("single(): target div not provided")
+            return
+        }
 
+        if (!content_index[key]?.content) {
+            let response = await fetch(key + '.md');
+            content_index[key].content = await response.text();
+        }
+
+        if (!content_index[key]?.content) {
+            target.innerHTML =  "<p>Failed to get fetch content</p>"
+            return
+        }
+
+        let html = `<div>`
+        converter = new showdown.Converter({metadata: true});
+        html += converter.makeHtml(content_index[key].content)
+        html += `</div>`
+        target.innerHTML = html;
+    })
 
 
     return {
         listing, single
     }
-
 })()

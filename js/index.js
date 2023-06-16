@@ -3,7 +3,7 @@ const route = () => {
     let root = document.querySelector('.container');
 
     if (path === "/" || path === "") {
-        blog.listing(root, "onNavigate")
+        blog.listing(root, "onNavigate", site_index_map_object)
     } else if (path.startsWith('/content')) {
         blog.single(root, path)
     } else {
