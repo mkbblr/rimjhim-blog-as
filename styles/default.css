@@ -18,7 +18,7 @@ tr:nth-child(even) {
 }
 
 body {
-    font-family: Helvetica, Arial, Freesans, clean, sans-serif;
+font-family: Helvetica, Arial, Freesans, clean, sans-serif;
 padding:1em;
 margin:auto;
 max-width:42em;
@@ -107,22 +107,35 @@ a, a:visited {
     width: 0;
 }
 
-/* @font-face {
-    font-family: myFirstFont;
-    src: url(styles/font/TiroBangla-Regular.ttf);
-} 
-*/
-
-
-
-body {
+html {
     font-family: Noto Sans Bengali;
 }
 
-/* html, body {
-    width: 80%;
-    height: 90%;
-} */
+
+header {
+    position: sticky;
+    /* left: 10%;
+    right: 0; */
+    top: 0;
+    /* width: 99%;
+    margin: auto; */
+    z-index: 1;
+    background-color: mistyrose;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.85);
+}
+
+.header {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-top: 65px;
+}
+
 
 .cards {
     display: grid;
