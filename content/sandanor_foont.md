@@ -2,7 +2,7 @@
 title:		"চন্দনৰ ফোট!"
 date:		2020-05-20 00:32:00
 updated:	2020-05-20 00:32:05
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "শুধ বগা ধূতি, বগা পাঞ্জাবী, বগা চন্দনৰ ফূটটোৰে মিঠাবৰণীয়া দীৰ্ঘকায় সত্য শৰ্মাক দেখিলেই মনত কিবা এটা ভক্তিভাৱে চুই যায়।"
 blogger:	https://rimjhimborthakur.blogspot.com/2020/05/blog-post.html
 ---

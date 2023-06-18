@@ -2,7 +2,7 @@
 title:		"প্ৰজেক্ট!"
 date:		2019-08-29 22:06:00
 updated:	2019-08-29 22:06:39
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "তাইৰ কৈ থকা মুখখনত হাতখন দি সিঃ কাম-বন নাই বুলি তোমাক কোনে ক'লে।"
 blogger:	https://rimjhimborthakur.blogspot.com/2019/08/blog-post.html
 ---

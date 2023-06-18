@@ -2,7 +2,7 @@
 title:		"জেঠাই"
 date:		2022-01-11 05:27:00
 updated:	2022-01-11 05:27:46
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "এইবাৰ মাজানে আগতকৈ অলপ গহীনত অভিমানৰ সুৰত ক'লে। এইকণ সময় মাজান আৰু তাই মাকৰ একান্ত সময়।"
 blogger:	https://rimjhimborthakur.blogspot.com/2022/01/blog-post.html
 ---

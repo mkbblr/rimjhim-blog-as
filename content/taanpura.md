@@ -2,8 +2,9 @@
 title:		"তানপুৰা"
 date:		2023-01-04 01:32:00
 updated:	2023-01-04 01:32:21
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "মোবাইলটো পাই কাকতি যথেষ্ট সুখী। বহুত কামত অহা বস্তু বিশেষকৈ ফেচবুকটোত লাগি থাকিলে সময়ে কোনফালে কেতিয়া ঢাপলি মেলে একো ক'ব নোৱাৰে।"
+img:        assets/taanpura.svg
 blogger:	https://rimjhimborthakur.blogspot.com/2023/01/blog-post.html
 ---
 

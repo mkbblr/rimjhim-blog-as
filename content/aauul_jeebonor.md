@@ -2,7 +2,7 @@
 title:		"আউল জীৱনৰ!"
 date:		2022-07-11 21:39:00
 updated:	2022-07-11 21:39:09
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "খবৰটো পাই অনামিকা কথমপি নপৰাকৈ থাকিল। কি শুনিছে এয়া তাই!"
 permalink:	https://rimjhimborthakur.blogspot.com/2022/07/blog-post.html
 ---

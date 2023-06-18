@@ -4,6 +4,7 @@ date:		2022-09-01 06:51:00
 updated:	2022-09-01 06:51:59
 tags: 	    prabondha,article
 intro:      "আজি দুদিন ধৰি ছচিয়েল মিডিয়াত খুব চৰ্চিত খবৰটো হৈছে জয়মালা নামৰ হাতীজনীৰ।"
+img:        assets/elephant.svg
 blogger:	https://rimjhimborthakur.blogspot.com/2022/09/blog-post.html
 ---
 

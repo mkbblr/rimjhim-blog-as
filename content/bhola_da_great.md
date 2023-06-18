@@ -2,8 +2,9 @@
 title:		"ভোলা দা গ্ৰেট"
 date:		2019-09-24 23:07:00
 updated:	2019-09-24 23:07:20
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "ইমান কুৰুকিও এইটোৰ পৰা এটা শব্দ উলিয়াব পৰা নাই। ৰাসত পিন্ধা ড্ৰেছ এটা কৰি আহতজোপাৰ তলতে কেৰ মাৰি বহি আছে"
+img:        assets/man.svg
 blogger:	https://rimjhimborthakur.blogspot.com/2019/09/blog-post.html
 ---
 

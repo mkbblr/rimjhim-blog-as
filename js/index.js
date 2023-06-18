@@ -4,10 +4,8 @@ const route = () => {
 
     if (path === "/" || path === "") {
         blog.listing(root, "onNavigate", site_index_map_object)
-    } else if (path.startsWith('/content')) {
-        blog.single(root, path)
     } else {
-        console.log("Unrecognized route " + path)
+        blog.single(root, path)
     }
 }
 
@@ -16,6 +14,9 @@ window.onload = route
 window.onpopstate = route
 
 const onNavigate = (pathname) => {
+    if (!pathname.startsWith('/')) {
+        pathname = '/' + pathname
+    }
     window.history.pushState(
         {},
         pathname,

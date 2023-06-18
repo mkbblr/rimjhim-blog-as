@@ -2,7 +2,7 @@
 title:		"অপ্ৰকাশিত কথাবোৰ!"
 date:		2019-08-31 11:44:00
 updated:	2019-09-02 09:13:53
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "নৱাৰুণক লগ পাই আহি মৌমিৰ মনটো কিবা এটা ভাল লাগি গ'ল।"
 blogger:	https://rimjhimborthakur.blogspot.com/2019/08/blog-post_31.html
 ---

@@ -2,7 +2,7 @@
 title:		"এখন গাঁও আছিল"
 date:		2021-01-27 08:09:00
 updated:	2021-01-27 08:09:18
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "গোটেইজাকৰ হাঁহিৰ খিলখিলনিৰ শব্দত পকা ধাননি দৰাত পৰি পোক-পত‌ংগবোৰ খাবলৈ অহা অকণি অকণি চৰাইজাকো উৰা মাৰি গুচি যায়। "
 permalink:	https://rimjhimborthakur.blogspot.com/2021/01/blog-post.html
 ---

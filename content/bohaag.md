@@ -2,7 +2,7 @@
 title:		"ব'হাগে কন্দুৱাই, ব'হাগে হহুৱাই!"
 date:		2018-03-12 19:42:00
 updated:	2018-03-13 21:54:41
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "দূৰৈৰ পৰা ভাঁহি অহা ঢোলৰ গুমগুমণিটো মূৰৰ ওপৰতে ঢেৰেংকৈ মৰা গাজনিটোৱে একেবাৰে নোহোৱা কৰি পেলালে।"
 blogger:	https://rimjhimborthakur.blogspot.com/2018/03/blog-post.html
 ---

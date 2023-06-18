@@ -2,7 +2,7 @@
 title:		"খটাসুৰ নাতিনীয়েক আৰু আজলী বুঢ়ীমাক!"
 date:		2018-04-04 01:28:00
 updated:	2018-04-05 08:49:23
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "পিৰাখন পাৰি ৰ'দতে বহি থকা ৮৮ বছৰীয়া আইতাকে নাতিনীয়েকক মাতি আছে।"
 blogger:	https://rimjhimborthakur.blogspot.com/2018/04/blog-post.html
 ---

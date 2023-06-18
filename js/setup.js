@@ -29,7 +29,8 @@ const setup = (() => {
                         isHeader = !isHeader
                         currentLineIndex++
                         if (!isHeader) {
-                            path = '/' + filepath.slice(0, -3)
+                            metadata['src'] = '/' + filepath
+                            path = filepath.split('/')[1].slice(0, -3)
                             contentMap.set(path, metadata)
                         }
                         rl.close()

@@ -2,8 +2,9 @@
 title:		"লগ পাম তোমাক ইপাৰে!"
 date:		2022-12-14 06:33:00
 updated:	2022-12-14 06:33:06
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "দহবছৰীয়া নাতিনীয়েক জিয়াই যিমান জোৰেৰে চিঞৰিছে ককাকে লগে লগে সমানে ঘৈণীয়েকৰ নাম ধৰি চিঞৰিছে।"
+img:        assets/goodbye.svg
 blogger:	https://rimjhimborthakur.blogspot.com/2022/12/blog-post_14.html
 ---
 

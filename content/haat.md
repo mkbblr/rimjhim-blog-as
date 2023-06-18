@@ -2,7 +2,7 @@
 title:		"হাট!"
 date:		2022-05-15 07:08:00
 updated:	2022-05-15 07:08:27
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "অকণ হাটলৈ যাব আজি। কিমান বছৰৰ মূৰত সি হাটলৈ যাব, অকণৰ নিজৰে হিচাপ নোহোৱাৰ নিচিনা।"
 blogger:	https://rimjhimborthakur.blogspot.com/2022/05/blog-post.html
 ---

@@ -2,7 +2,7 @@
 title:		"দেউতালৈ একলম"
 date:		2022-06-20 05:03:00
 updated:	2022-06-20 05:04:59
-tags: 	    golpo,short-story
+tags: 	    Story
 intro:      "দিনটো আছিল ১৯ জুন। ফেচবুক খুলিয়ে গম পালোঁ সেইদিনা বোলে পিতৃ দিৱস।"
 blogger:	https://rimjhimborthakur.blogspot.com/2022/06/blog-post.html
 ---
