@@ -5,7 +5,7 @@ const route = () => {
     if (path === "/" || path === "") {
         blog.listing(root, "onNavigate", site_index_map_object)
     } else {
-        blog.single(root, path)
+        blog.single(root, path, site_index_map_object)
     }
 }
 

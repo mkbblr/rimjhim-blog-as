@@ -73,7 +73,11 @@ const blog = (() => {
         target.innerHTML = listUI(content_index, onclick)
     });
 
-    const single = (async (target, key) => {
+    const single = (async (target, key, data) => {
+        if (!content_index) {
+            content_index = data  || undefined
+        }        
+
         if (!target) {
             console.log("single(): target div not provided")
             return
