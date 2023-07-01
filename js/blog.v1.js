@@ -17,8 +17,8 @@ const blog = (() => {
 		<div class="text-overlay">
 			<h2 href="#" onclick=${onclick}('${k}')>${v.title.slice(1, -1)}</h2>
 			<p>
-            <span>${v.date.split(' ')[0]}</span>
-            <span href="#" class="read-more" onclick=${onclick}('${k}')> | Read More </span>
+            <span>${v.date.split(' ')[0]}</span>|
+            <span href="#" class="read-more" onclick=${onclick}('${k}')> Read More </span>
             <br>
             <span class="blog-intro">
                 ${v.intro.slice(1, -1)}
@@ -97,6 +97,9 @@ const blog = (() => {
         }
 
         target.innerHTML = singleUI(key, content_index[key]);
+        window.scrollTo({
+            top: 0, left:0, behavior: "smooth",
+        })
     })
 
 

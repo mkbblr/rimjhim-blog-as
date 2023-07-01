@@ -17,12 +17,11 @@ tr:nth-child(even) {
 	background-color: #F8F8F8;
 }
 
-body {
-font-family: Helvetica, Arial, Freesans, clean, sans-serif;
-padding:1em;
-margin:auto;
-max-width:42em;
-background:#fefefe;
+.content {
+    font-family: Noto Sans Bengali, Helvetica, Arial, Freesans, clean, sans-serif;
+    padding:1em;
+    margin:auto;
+    background:#fefefe;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -114,26 +113,38 @@ html {
 
 header {
     position: sticky;
-    /* left: 10%;
-    right: 0; */
     top: 0;
-    /* width: 99%;
-    margin: auto; */
     z-index: 1;
+    margin: 0.2em;
+    padding-bottom: 0.1em;
+    text-align: center;
+    text-justify: inter-ideograph;   
+
     background-color: mistyrose;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.85);
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.85); */
 }
 
-.header {
+
+div.disclaimer {
     margin-left: 1em;
     margin-right: 1em;
+    margin-top: 0;
+    text-align: center;
+    text-justify: inter-ideograph;   
+    font-size: 0.8em;
+
+    /* background-color: mistyrose; */
 }
 
-.content {
+
+
+body div.content {
     position: relative;
     overflow: hidden;
     overflow-y: scroll;
     padding-top: 65px;
+    max-width: 42em;
+    width: 42em;
 }
 
 
@@ -160,8 +171,9 @@ header {
     display: block;
     position: relative;
     top: 7vw;
-    width: 99%;
     height: 300px;
+    min-width: 42em;
+    max-width: 42em;
     margin: auto;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.85);
     transition: all 450ms ease-out 0s;
@@ -227,12 +239,28 @@ header {
     overflow: hidden;
 }
 .text-overlay  .read-more {
-    color: #378AEE;
+    /* color: #378AEE; */
     text-decoration: none;
     transition: all 350ms linear;
     /* visibility: hidden; */
 }
-.text-overlay  .read-more:hover {
+
+.text-overlay  h2:hover {
     color: #449CC5;
+    cursor: pointer;
     border-bottom: 1px dotted #47A8F2;
 }     
+
+.text-overlay  .read-more:hover {
+    color: #449CC5;
+    cursor: pointer;
+    border-bottom: 1px dotted #47A8F2;
+}
+
+.post-content {
+    margin: 3em;
+}
+
+.post-content h2 {
+    text-align: center;
+}
